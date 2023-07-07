@@ -1,4 +1,4 @@
-FROM nginx:1.14.1-alpine
+FROM --platform=linux/arm64 nginx:1.14.1-alpine
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
